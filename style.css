@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background:rgb(143, 162, 169);
+    width: 15vw;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+
+.sidebar nav{
+    padding: 22px;
+    height: 100vh;
+    
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main{
+    background: white;
+    width: 85vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    background:lightcyan;
+    height: 55vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    height: 35vh;
+    padding: 10vh;
+    
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 40px;
+}
+
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+.about{
+    font-size: 30px;
+    margin-top: 23px;
+}
+
+.moreabout{
+    font-size: 17px;
+    margin-top: 15px;
+}
+.buttons{
+    margin-top: 35px;
+}
+
+.buttons button{
+    padding: 10px;;
+    border-radius:25px;
+    color: white;
+    background-color:dodgerblue;
+    font-size: 15px;
+    font: bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color:dodgerblue;
+
+}
+
+.contactform {
+    font-family: 'Inter', sans-serif;
+    padding-top: 144px;
+    padding-left: 36px;
+
+}
+.contactform h1{
+    text-align:left;
+    padding-left: 6px ;
+}
+
+.contactform div input{
+    padding: 5px;
+    width: 16vw;
+    margin: 6px;
+}
+
+    .email {
+    padding-top : 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.phone {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+
+}
+
+.btn{
+    margin-left: 25px;
+    margin-top: 30px;
+    padding: 8px;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 25px;
+    font: bold;
+    color: white;
+    background-color:dodgerblue;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.logo{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.blogitem{
+    margin: 20px;
+}
+
+.blogcontainer h1{
+    margin: 30px;
+
+}
+
+.btn-sm{
+    
+    margin-left: 25px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius:15px;
+    cursor: pointer;
+    font-size:15px;
+    font: bold;
+    color: white;
+    background-color:dodgerblue;
+
+}
+
+.boss{
+    margin-left: 70px;
+    font-size: larger;
+    font-style: italic;
+    margin-top: 110px;
+}
+.boss h1{
+    font-weight: bold;
+    color: rgb(56, 3, 3);
+}
+
+.intro{
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.skill{
+    display: flex;
+    font-style: normal;
+
+}
+
+.skill h2{
+    color: brown;
+}
+
+.skillcontainer{
+    margin-top: 20px;
+    width: 20vw;
+    font-size: larger;
+}
+
+.Soft_skills{
+    width: 20vw;
+    margin-top: 20px;
+    font-size: larger;
+    margin-bottom: 20PX;
+}
+
+.qualification{
+    margin-left: 20PX;
+    margin-top: 20PX;
+    width: 20VW;
+    font-size: larger;
+}
+
+.heading{
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 32vw;
+    font-weight: 500;
+    margin-top: 40px;
+    color: brown;
+}
+
+.talent_battle{
+    margin-top: 30px;
+    margin-left: 210px;
+}
+
+.hacker_rank{
+    margin-top: 30px;
+    margin-left: 210px;
+}
+
+.great_learning{
+    margin-top: 30px;
+    margin-left: 210px;
+}
